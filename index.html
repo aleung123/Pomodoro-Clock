@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro Clock</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+	   	<!-- CSS files-->
+	   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+   	   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	   	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Pomodoro Clock</h1>
+	<div class="timers">
+		<div class="session">
+			<p>Session Length</p>
+			<div>
+				<button type="button" class="inline" id="minus">-</button>
+				<p class="inline" id="num">25</p>
+				<button type="button" class="inline" id="add">+</button>
+			</div>
+		</div>
+		<div id="break">
+			<p>Break Length</p>
+			<div>
+				<button type="button" class="inline" id="minBreak">-</button>
+				<p class="inline" id="breakNum">5</p>
+				<button type="button" class="inline" id="addBreak">+</button>
+			</div>
+		</div>
+	</div>
+	<div class="clock">
+		<p>Session</p>
+		<p>25</p>
+	</div>
+	<button type="button" class="btn btn-primary" id="start">Start</button>
+	<footer class="footer">
+	  <p>Copyright © Angela Leung 2018. All Rights Reserved</p>
+	</footer>
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
