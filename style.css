@@ -1,9 +1,42 @@
 body {
-	text-align: center;
-	margin: 0 auto;
 	margin-bottom: 40px;
-	background-color: #22262B;
+	background-color: #4D004D;
+}
+
+.container {
+	text-align: center;
+	padding-top: 20px;
 	color: white;
+	font-family: Franklin Gothic Medium, Arial, sans-serif;
+}
+
+.timers {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.options {
+	float: left;
+	width: 200px;
+}
+
+.options .btn {
+	float: left;
+}
+
+.timeText {
+	font-size: 20px;
+}
+
+.buttons {
+	width: 120px;
+	margin: 0 auto;
+}
+
+.duration {
+	float: left;
+	width: 40px;
+	font-size: 20px;
 }
 
 .clock {
@@ -11,26 +44,14 @@ body {
 	width: 200px;
 	border: 3px solid white;
 	border-radius: 100%;
-	margin: 20px auto;
+	margin: 0 auto;
 	cursor: pointer;
+	clear: both;
 }
 
-.timers div {
-	display: inline-block;
-	margin: 0px 20px;
-}
-
-.inline {
-	display: inline-block;
-	margin: 2px;
-}
-
-/*h2 {
-	display: inline;
-}*/
-
-#start {
-	margin: 10px;
+.clockTitle, .clockTimer {
+	font-size: 30px;
+	margin-top: 30px
 }
 
 .footer {
@@ -40,5 +61,5 @@ body {
   height: 40px;
   text-align: center;
   font-size: 15px;
-  background-color: rgba(245, 245, 245, 0.2);
+  background-color: rgba(245, 245, 245, 0.3);
 }
