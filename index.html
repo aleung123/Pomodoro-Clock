@@ -11,30 +11,31 @@
 	   	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Pomodoro Clock</h1>
-	<div class="timers">
-		<div class="session">
-			<p>Session Length</p>
-			<div>
-				<button type="button" class="inline" id="minus">-</button>
-				<p class="inline" id="num">25</p>
-				<button type="button" class="inline" id="add">+</button>
+	<div class="container">
+		<h1>Pomodoro Clock</h1>
+		<div class="timers">
+			<div class="options">
+				<div class="timeText">Session Time</div>
+				<div class="buttons">
+					<button class="btn btn-default" id="minus"><i class="fa fa-minus"></i></button>
+					<div class="duration" id="num">25</div>
+					<button class="btn btn-default" id="add"><i class="fa fa-plus"></i></button>
+				</div>
+			</div>
+			<div class="options">
+				<div class="timeText">Break Time</div>
+				<div class="buttons">
+					<button class="btn btn-default" id="minBreak"><i class="fa fa-minus"></i></button>
+					<div class="duration" id="breakNum">5</div>
+					<button class="btn btn-default" id="addBreak"><i class="fa fa-plus"></i></button>
+				</div>
 			</div>
 		</div>
-		<div id="break">
-			<p>Break Length</p>
-			<div>
-				<button type="button" class="inline" id="minBreak">-</button>
-				<p class="inline" id="breakNum">5</p>
-				<button type="button" class="inline" id="addBreak">+</button>
-			</div>
+		<div class="clock">
+			<div class="clockTitle">Session</div>
+			<div class="clockTimer">25</div>
 		</div>
 	</div>
-	<div class="clock">
-		<p>Session</p>
-		<p>25</p>
-	</div>
-	<button type="button" class="btn btn-primary" id="start">Start</button>
 	<footer class="footer">
 	  <p>Copyright © Angela Leung 2018. All Rights Reserved</p>
 	</footer>
